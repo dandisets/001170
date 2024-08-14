@@ -2,6 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/001170
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.8/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:EmbargoedAccess
@@ -24,9 +25,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 110828733818
-  numberOfFiles: 5
-  numberOfSubjects: 4
+  numberOfBytes: 131458590335
+  numberOfFiles: 6
+  numberOfSubjects: 5
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -39,15 +40,26 @@ assetsSummary:
   - OpticalChannel
   - TwoPhotonSeries
   - ImagingPlane
-citation: Mesoscale Two-Photon Calcium Imaging of Population Level Odor Responses
-  from the Mouse Olfactory Bulb (2024). (Version draft) [Data set]. DANDI archive.
-  https://dandiarchive.org/dandiset/001170/draft
+citation: Reimer, Jacob; Arenkiel, Benjamin (2024) Mesoscale Two-Photon Calcium Imaging
+  of Population Level Odor Responses from the Mouse Olfactory Bulb (Version draft)
+  [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001170/draft
 contributor:
 - awardNumber: 1 UF1 NS 111692-01
   name: National Institutes of Health (NIH)
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- email: reimer@bcm.edu
+  identifier: 0000-0003-4364-8846
+  includeInCitation: true
+  name: Reimer, Jacob
+  schemaKey: Person
+  url: https://www.bcm.edu/research/labs/jacob-reimer
+- email: arenkiel@bcm.edu
+  identifier: 0000-0001-9047-2420
+  includeInCitation: true
+  name: Arenkiel, Benjamin
+  schemaKey: Person
 dateCreated: '2024-08-08T08:21:13.128356+00:00'
 description: This study explores odor-evoked activity representation in the olfactory
   bulb (OB) and how odor responses enable odor discrimination. Contrary to some previously
@@ -59,16 +71,36 @@ description: This study explores odor-evoked activity representation in the olfa
   learning techniques to suggest a model in which sparse coding is largely sufficient
   for olfaction, but redundant information may make odor coding more robust across
   different variables.
+ethicsApproval: []
 id: DANDI:001170/draft
 identifier: DANDI:001170
+keywords:
+- odor-evoked activity
+- olfactory bulb
+- two photon calcium imaging
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001170/versions/draft/assets/
 name: Mesoscale Two-Photon Calcium Imaging of Population Level Odor Responses from
   the Mouse Olfactory Bulb
+protocol: []
+relatedResource:
+- identifier: https://doi.org/10.1101/2023.04.24.538157
+  name: Conserved neural dynamics and computations across species in olfaction
+  relation: dcite:References
+  resourceType: dcite:Preprint
+  schemaKey: Resource
+  url: https://doi.org/10.1101/2023.04.24.538157
+- name: Dense Odor Coding in the Mouse Olfactory Bulb
+  relation: dcite:References
+  resourceType: dcite:ConferencePaper
+  schemaKey: Resource
+  url: https://icml-compbio.github.io/2023/papers/WCBICML2023_paper122.pdf
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
+studyTarget: []
 url: https://dandiarchive.org/dandiset/001170/draft
 version: draft
+wasGeneratedBy: []
