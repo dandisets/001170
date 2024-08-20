@@ -25,9 +25,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 322512268260
-  numberOfFiles: 11
-  numberOfSubjects: 7
+  numberOfBytes: 352083757265
+  numberOfFiles: 12
+  numberOfSubjects: 8
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -88,12 +88,13 @@ protocol: []
 relatedResource:
 - identifier: https://doi.org/10.1101/2023.04.24.538157
   name: Conserved neural dynamics and computations across species in olfaction
-  relation: dcite:References
+  relation: dcite:IsDescribedBy
+  repository: bioRxiv
   resourceType: dcite:Preprint
   schemaKey: Resource
   url: https://doi.org/10.1101/2023.04.24.538157
 - name: Dense Odor Coding in the Mouse Olfactory Bulb
-  relation: dcite:References
+  relation: dcite:IsDescribedBy
   resourceType: dcite:ConferencePaper
   schemaKey: Resource
   url: https://icml-compbio.github.io/2023/papers/WCBICML2023_paper122.pdf
