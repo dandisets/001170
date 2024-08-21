@@ -40,7 +40,8 @@ assetsSummary:
   - OpticalChannel
   - TwoPhotonSeries
   - ImagingPlane
-citation: Reimer, Jacob; Arenkiel, Benjamin (2024) Mesoscale Two-Photon Calcium Imaging
+citation: Pfaffinger, Paul; Hanson, Elizabeth; Pirhayatifard, Delaram; Arenkiel, Benjamin;
+  Reimer, Jacob; Hu, Ming; Navlakha, Saket (2024) Mesoscale Two-Photon Calcium Imaging
   of Population Level Odor Responses from the Mouse Olfactory Bulb (Version draft)
   [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001170/draft
 contributor:
@@ -49,17 +50,46 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- includeInCitation: true
+  name: Pfaffinger, Paul
+  schemaKey: Person
+- email: mosse@ohsu.edu
+  identifier: 0000-0002-5150-8926
+  includeInCitation: true
+  name: Hanson, Elizabeth
+  schemaKey: Person
+- email: dp43@rice.edu
+  includeInCitation: true
+  name: Pirhayatifard, Delaram
+  schemaKey: Person
+  url: ''
+- email: arenkiel@bcm.edu
+  identifier: 0000-0001-9047-2420
+  includeInCitation: true
+  name: Arenkiel, Benjamin
+  schemaKey: Person
 - email: reimer@bcm.edu
   identifier: 0000-0003-4364-8846
   includeInCitation: true
   name: Reimer, Jacob
   schemaKey: Person
   url: https://www.bcm.edu/research/labs/jacob-reimer
-- email: arenkiel@bcm.edu
-  identifier: 0000-0001-9047-2420
+- email: ming.hu@bcm.edu
   includeInCitation: true
-  name: Arenkiel, Benjamin
+  name: Hu, Ming
   schemaKey: Person
+- email: ankitp@bcm.edu
+  identifier: 0000-0001-9678-496X
+  includeInCitation: false
+  name: 'Patel, Ankit '
+  schemaKey: Person
+  url: https://ankitlab.co/
+- email: navlakha@cshl.edu
+  identifier: 0000-0002-5505-9718
+  includeInCitation: true
+  name: Navlakha, Saket
+  schemaKey: Person
+  url: https://facultyprofiles.cshl.edu/saket.navlakha
 dateCreated: '2024-08-08T08:21:13.128356+00:00'
 description: This study explores odor-evoked activity representation in the olfactory
   bulb (OB) and how odor responses enable odor discrimination. Contrary to some previously
