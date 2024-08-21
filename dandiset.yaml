@@ -72,6 +72,8 @@ contributor:
   identifier: 0000-0003-4364-8846
   includeInCitation: true
   name: Reimer, Jacob
+  roleName:
+  - dcite:ContactPerson
   schemaKey: Person
   url: https://www.bcm.edu/research/labs/jacob-reimer
 - email: ming.hu@bcm.edu
@@ -128,6 +130,13 @@ relatedResource:
   resourceType: dcite:ConferencePaper
   schemaKey: Resource
   url: https://icml-compbio.github.io/2023/papers/WCBICML2023_paper122.pdf
+- identifier: https://github.com/catalystneuro/reimer-arenkiel-lab-to-nwb
+  name: reimer-arenkiel-lab-to-nwb
+  relation: dcite:IsCompiledBy
+  repository: GitHub
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://github.com/catalystneuro/reimer-arenkiel-lab-to-nwb
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
