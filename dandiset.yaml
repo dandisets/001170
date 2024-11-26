@@ -40,10 +40,10 @@ assetsSummary:
   - OpticalChannel
   - TwoPhotonSeries
   - ImagingPlane
-citation: Pfaffinger, Paul; Hanson, Elizabeth; Pirhayatifard, Delaram; Arenkiel, Benjamin;
-  Reimer, Jacob; Hu, Ming; Navlakha, Saket (2024) Mesoscale Two-Photon Calcium Imaging
-  of Population Level Odor Responses from the Mouse Olfactory Bulb (Version draft)
-  [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001170/draft
+citation: Pfaffinger, Paul; Hanson, Elizabeth; Pirhayatifard, Delaram; Reimer, Jacob;
+  Hu, Ming; Navlakha, Saket; Arenkiel, Benjamin (2024) Mesoscale Two-Photon Calcium
+  Imaging of Population Level Odor Responses from the Mouse Olfactory Bulb (Version
+  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001170/draft
 contributor:
 - awardNumber: 1 UF1 NS 111692-01
   name: National Institutes of Health (NIH)
@@ -61,12 +61,6 @@ contributor:
 - email: dp43@rice.edu
   includeInCitation: true
   name: Pirhayatifard, Delaram
-  schemaKey: Person
-  url: ''
-- email: arenkiel@bcm.edu
-  identifier: 0000-0001-9047-2420
-  includeInCitation: true
-  name: Arenkiel, Benjamin
   schemaKey: Person
 - email: reimer@bcm.edu
   identifier: 0000-0003-4364-8846
@@ -92,6 +86,11 @@ contributor:
   name: Navlakha, Saket
   schemaKey: Person
   url: https://facultyprofiles.cshl.edu/saket.navlakha
+- email: arenkiel@bcm.edu
+  identifier: 0000-0001-9047-2420
+  includeInCitation: true
+  name: Arenkiel, Benjamin
+  schemaKey: Person
 dateCreated: '2024-08-08T08:21:13.128356+00:00'
 description: This study explores odor-evoked activity representation in the olfactory
   bulb (OB) and how odor responses enable odor discrimination. Contrary to some previously
