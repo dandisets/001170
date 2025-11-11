@@ -44,7 +44,7 @@ assetsSummary:
 citation: Pfaffinger, Paul; Hanson, Elizabeth; Pirhayatifard, Delaram; Reimer, Jacob;
   Hu, Ming; Navlakha, Saket; Arenkiel, Benjamin (2025) Mesoscale Two-Photon Calcium
   Imaging of Population Level Odor Responses from the Mouse Olfactory Bulb (Version
-  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001170/draft
+  0.251111.1532) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001170/0.251111.1532
 contributor:
 - awardNumber: 1 UF1 NS 111692-01
   name: National Institutes of Health (NIH)
@@ -104,8 +104,9 @@ description: This study explores odor-evoked activity representation in the olfa
   learning techniques to suggest a model in which sparse coding is largely sufficient
   for olfaction, but redundant information may make odor coding more robust across
   different variables.
+doi: 10.48324/dandi.001170/0.251111.1532
 ethicsApproval: []
-id: DANDI:001170/draft
+id: DANDI:001170/0.251111.1532
 identifier: DANDI:001170
 keywords:
 - odor-evoked activity
@@ -114,7 +115,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001170/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001170/0.251111.1532/assets.yaml
 name: Mesoscale Two-Photon Calcium Imaging of Population Level Odor Responses from
   the Mouse Olfactory Bulb
 protocol: []
@@ -154,6 +155,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
 studyTarget: []
-url: https://dandiarchive.org/dandiset/001170/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001170/0.251111.1532
+version: 0.251111.1532
 wasGeneratedBy: []
