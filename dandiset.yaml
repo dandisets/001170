@@ -3,7 +3,19 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.8/context.json
-about: []
+about:
+- identifier: http://purl.obolibrary.org/obo/UBERON_0002264
+  name: olfactory bulb
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/CL_1001502
+  name: mitral cell
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/CL_1001503
+  name: olfactory bulb tufted cell
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/CL_0000626
+  name: olfactory granule cell
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -42,11 +54,12 @@ assetsSummary:
   - TwoPhotonSeries
   - ImagingPlane
 citation: Pfaffinger, Paul; Hanson, Elizabeth; Pirhayatifard, Delaram; Reimer, Jacob;
-  Hu, Ming; Navlakha, Saket; Arenkiel, Benjamin (2025) Mesoscale Two-Photon Calcium
+  Hu, Ming; Navlakha, Saket; Arenkiel, Benjamin (2026) Mesoscale Two-Photon Calcium
   Imaging of Population Level Odor Responses from the Mouse Olfactory Bulb (Version
   draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001170/draft
 contributor:
 - awardNumber: 1 UF1 NS 111692-01
+  identifier: https://ror.org/01cwqze88
   name: National Institutes of Health (NIH)
   roleName:
   - dcite:Funder
@@ -54,7 +67,11 @@ contributor:
 - includeInCitation: true
   name: Pfaffinger, Paul
   schemaKey: Person
-- email: mosse@ohsu.edu
+- affiliation:
+  - identifier: https://ror.org/02pttbw34
+    name: Baylor College of Medicine
+    schemaKey: Affiliation
+  email: mosse@ohsu.edu
   identifier: 0000-0002-5150-8926
   includeInCitation: true
   name: Hanson, Elizabeth
@@ -63,7 +80,11 @@ contributor:
   includeInCitation: true
   name: Pirhayatifard, Delaram
   schemaKey: Person
-- email: reimer@bcm.edu
+- affiliation:
+  - identifier: https://ror.org/02pttbw34
+    name: Baylor College of Medicine
+    schemaKey: Affiliation
+  email: reimer@bcm.edu
   identifier: 0000-0003-4364-8846
   includeInCitation: true
   name: Reimer, Jacob
@@ -71,11 +92,19 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
   url: https://www.bcm.edu/research/labs/jacob-reimer
-- email: ming.hu@bcm.edu
+- affiliation:
+  - identifier: https://ror.org/02pttbw34
+    name: Baylor College of Medicine
+    schemaKey: Affiliation
+  email: ming.hu@bcm.edu
   includeInCitation: true
   name: Hu, Ming
   schemaKey: Person
-- email: ankitp@bcm.edu
+- affiliation:
+  - identifier: https://ror.org/02pttbw34
+    name: Baylor College of Medicine
+    schemaKey: Affiliation
+  email: ankitp@bcm.edu
   identifier: 0000-0001-9678-496X
   includeInCitation: false
   name: 'Patel, Ankit '
@@ -87,23 +116,51 @@ contributor:
   name: Navlakha, Saket
   schemaKey: Person
   url: https://facultyprofiles.cshl.edu/saket.navlakha
-- email: arenkiel@bcm.edu
+- affiliation:
+  - identifier: https://ror.org/02pttbw34
+    name: Baylor College of Medicine
+    schemaKey: Affiliation
+  email: arenkiel@bcm.edu
   identifier: 0000-0001-9047-2420
   includeInCitation: true
   name: Arenkiel, Benjamin
   schemaKey: Person
+- identifier: https://ror.org/021nxhr62
+  name: National Science Foundation (NSF)
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- identifier: https://ror.org/0447fe631
+  name: U.S. Department of Defense (DoD)
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- identifier: https://ror.org/00rk2pe57
+  name: Office of Naval Research (ONR)
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- affiliation:
+  - identifier: https://ror.org/01d74sk53
+    name: Catalyst Neuro
+    schemaKey: Affiliation
+  includeInCitation: false
+  name: Trapani, Alessandra
+  roleName:
+  - dcite:DataCurator
+  schemaKey: Person
 dateCreated: '2024-08-08T08:21:13.128356+00:00'
-datePublished: '2025-11-11T15:32:07.045664+00:00'
-description: This study explores odor-evoked activity representation in the olfactory
-  bulb (OB) and how odor responses enable odor discrimination. Contrary to some previously
-  cited theories that suggest a sparse representation, we hypothesize a more dense
-  representation during odor presentation. A key question is how odors are reliably
-  encoded in OB activity patterns, and how these patterns contribute to early odor
-  processing. To address this problem, we recorded population level odor responses
-  from the mouse OB with mesoscale two photon calcium imaging and applied machine
-  learning techniques to suggest a model in which sparse coding is largely sufficient
-  for olfaction, but redundant information may make odor coding more robust across
-  different variables.
+description: This study explores odor-evoked activity representation in the mouse
+  olfactory bulb (OB) using mesoscale two-photon calcium imaging to investigate how
+  odor responses enable discrimination. Contrary to theories suggesting purely sparse
+  representations, we hypothesize a denser population-level representation during
+  odor presentation. The dataset includes population-level odor responses recorded
+  as NWB files containing TwoPhotonSeries (raw imaging data), SpatialSeries, and resulting
+  PlaneSegmentation/ProcessingModules from calcium signal extraction. By applying
+  machine learning techniques, we suggest a model in which sparse coding is sufficient
+  for olfaction, but redundant, dense information makes odor coding robust across
+  different variables. Data includes behavioral traces and surgical techniques associated
+  with mesoscale imaging of the OB.
 ethicsApproval: []
 id: DANDI:001170/draft
 identifier: DANDI:001170
@@ -111,6 +168,11 @@ keywords:
 - odor-evoked activity
 - olfactory bulb
 - two photon calcium imaging
+- olfactory system
+- neural dynamics
+- biological neural network
+- sparse coding
+- odor discrimination
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
@@ -118,18 +180,6 @@ manifestLocation:
 name: Mesoscale Two-Photon Calcium Imaging of Population Level Odor Responses from
   the Mouse Olfactory Bulb
 protocol: []
-publishedBy:
-  endDate: '2025-11-11T15:32:07.045664+00:00'
-  id: urn:uuid:443d54ee-c86a-42c4-b805-86c15e74d2a7
-  name: DANDI publish
-  schemaKey: PublishActivity
-  startDate: '2025-11-11T15:32:07.045664+00:00'
-  wasAssociatedWith:
-  - id: urn:uuid:594e1422-8c8d-4703-b65b-da297ce74457
-    identifier: RRID:SCR_017571
-    name: DANDI API
-    schemaKey: Software
-    version: 0.1.0
 relatedResource:
 - identifier: https://doi.org/10.1101/2023.04.24.538157
   name: Conserved neural dynamics and computations across species in olfaction
@@ -150,6 +200,11 @@ relatedResource:
   resourceType: dcite:Software
   schemaKey: Resource
   url: https://github.com/catalystneuro/reimer-arenkiel-lab-to-nwb
+- name: Example notebook for Dandiset 001170
+  relation: dcite:IsSupplementedBy
+  resourceType: dcite:ComputationalNotebook
+  schemaKey: Resource
+  url: https://dandi.github.io/example-notebooks/#dandiset-001170
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
