@@ -56,7 +56,7 @@ assetsSummary:
 citation: Pfaffinger, Paul; Hanson, Elizabeth; Pirhayatifard, Delaram; Reimer, Jacob;
   Hu, Ming; Navlakha, Saket; Arenkiel, Benjamin (2026) Mesoscale Two-Photon Calcium
   Imaging of Population Level Odor Responses from the Mouse Olfactory Bulb (Version
-  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001170/draft
+  0.260528.1016) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001170/0.260528.1016
 contributor:
 - awardNumber: 1 UF1 NS 111692-01
   identifier: https://ror.org/01cwqze88
@@ -150,6 +150,7 @@ contributor:
   - dcite:DataCurator
   schemaKey: Person
 dateCreated: '2024-08-08T08:21:13.128356+00:00'
+datePublished: '2026-05-28T10:16:15.987032+00:00'
 description: This study explores odor-evoked activity representation in the mouse
   olfactory bulb (OB) using mesoscale two-photon calcium imaging to investigate how
   odor responses enable discrimination. Contrary to theories suggesting purely sparse
@@ -161,8 +162,9 @@ description: This study explores odor-evoked activity representation in the mous
   for olfaction, but redundant, dense information makes odor coding robust across
   different variables. Data includes behavioral traces and surgical techniques associated
   with mesoscale imaging of the OB.
+doi: 10.48324/dandi.001170/0.260528.1016
 ethicsApproval: []
-id: DANDI:001170/draft
+id: DANDI:001170/0.260528.1016
 identifier: DANDI:001170
 keywords:
 - odor-evoked activity
@@ -176,10 +178,22 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001170/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001170/0.260528.1016/assets.yaml
 name: Mesoscale Two-Photon Calcium Imaging of Population Level Odor Responses from
   the Mouse Olfactory Bulb
 protocol: []
+publishedBy:
+  endDate: '2026-05-28T10:16:15.987032+00:00'
+  id: urn:uuid:818233f3-4303-4462-bb93-e120039219b1
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-05-28T10:16:15.987032+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:27a9c60e-4060-4980-bf12-24680f628403
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: https://doi.org/10.1101/2023.04.24.538157
   name: Conserved neural dynamics and computations across species in olfaction
@@ -209,6 +223,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
 studyTarget: []
-url: https://dandiarchive.org/dandiset/001170/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001170/0.260528.1016
+version: 0.260528.1016
 wasGeneratedBy: []
